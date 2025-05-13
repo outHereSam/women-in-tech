@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/mildred.png"
+                src="/mildred.webp"
                 alt="Mildred Mwinkom Naab"
                 width={500}
                 height={500}
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/mabel.png"
+                src="/mabel.webp"
                 alt="Mabel Hackman"
                 width={500}
                 height={500}
@@ -92,7 +92,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/cecilia.png"
+                src="/cecilia.webp"
                 alt="Cecilia Arthur"
                 width={500}
                 height={600}
@@ -127,7 +127,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/fatima.png"
+                src="/fatima.webp"
                 alt="Fatima"
                 width={500}
                 height={500}
@@ -165,7 +165,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/ewurasi.png"
+                src="/ewurasi.webp"
                 alt="Ewurasi Ayanful"
                 width={500}
                 height={500}
@@ -203,7 +203,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/jemima.png"
+                src="/jemima.webp"
                 alt="Jemima"
                 width={500}
                 height={500}
@@ -241,7 +241,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/janet.png"
+                src="/janet.webp"
                 alt="Janet Quaye"
                 width={500}
                 height={500}
@@ -279,7 +279,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/hadijatu.png"
+                src="/hadijatu.webp"
                 alt="Hadijatu"
                 width={500}
                 height={500}
