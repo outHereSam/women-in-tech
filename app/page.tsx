@@ -16,19 +16,19 @@ export default function Home() {
       <main className="container mx-auto px-4 py-12">
         <div className="space-y-32">
           {/* First Profile - Left Aligned */}
-          <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-16">
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/placeholder.svg?height=600&width=500"
-                alt="Sarah Johnson"
+                src="/mildred.png"
+                alt="Mildred Mwinkom Naab"
                 width={500}
-                height={600}
-                className="w-full object-cover filter hue-rotate-180 saturate-50 brightness-110"
+                height={500}
+                className="w-full object-cover"
               />
             </div>
             <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Sarah Johnson</h2>
-              <p className="text-gray-500">Frontend Developer Trainee</p>
+              <h2 className="text-2xl font-medium">Mildred Mwinkom Naab</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
                 Sarah is a passionate frontend developer with a background in
                 graphic design. She excels at creating responsive interfaces
@@ -51,19 +51,19 @@ export default function Home() {
           </div>
 
           {/* Second Profile - Right Aligned */}
-          <div className="flex flex-col md:flex-row-reverse md:items-start gap-8 md:gap-16">
+          <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/placeholder.svg?height=600&width=500"
-                alt="Maya Rodriguez"
+                src="/mabel.png"
+                alt="Mabel Hackman"
                 width={500}
-                height={600}
-                className="w-full object-cover filter hue-rotate-180 saturate-50 brightness-110"
+                height={500}
+                className="w-full object-cover"
               />
             </div>
             <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Maya Rodriguez</h2>
-              <p className="text-gray-500">UI/UX Developer Trainee</p>
+              <h2 className="text-2xl font-medium">Mabel Hackman</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
                 With a strong foundation in user experience design, Maya is
                 developing her frontend skills to bring her designs to life. She
@@ -89,18 +89,18 @@ export default function Home() {
           </div>
 
           {/* Third Profile - Left Aligned */}
-          <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-16">
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/placeholder.svg?height=600&width=500"
-                alt="Aisha Patel"
+                src="/cecilia.png"
+                alt="Cecilia Arthur"
                 width={500}
                 height={600}
-                className="w-full object-cover filter hue-rotate-180 saturate-50 brightness-110"
+                className="w-full object-cover"
               />
             </div>
             <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Aisha Patel</h2>
+              <h2 className="text-2xl font-medium">Cecilia Arthur</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
                 Aisha transitioned from backend development to focus on frontend
@@ -118,6 +118,196 @@ export default function Home() {
                 </Link>
                 <Link href="#" aria-label="LinkedIn profile for Aisha Patel">
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Fourth Profile - Right Aligned */}
+          <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/fatima.png"
+                alt="Fatima"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Fatima Alhassan</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                With a strong foundation in user experience design, Maya is
+                developing her frontend skills to bring her designs to life. She
+                has a keen eye for detail and is particularly interested in
+                accessibility and inclusive design practices. Maya is currently
+                exploring Next.js and Tailwind CSS.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
+                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="#"
+                  aria-label="Instagram profile for Maya Rodriguez"
+                >
+                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Fifth Profile - Right Aligned */}
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/ewurasi.png"
+                alt="Ewurasi Ayanful"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Ewurasi Ayanful</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                With a strong foundation in user experience design, Maya is
+                developing her frontend skills to bring her designs to life. She
+                has a keen eye for detail and is particularly interested in
+                accessibility and inclusive design practices. Maya is currently
+                exploring Next.js and Tailwind CSS.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
+                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="#"
+                  aria-label="Instagram profile for Maya Rodriguez"
+                >
+                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Sixth Profile - Right Aligned */}
+          <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/jemima.png"
+                alt="Jemima"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Jemima Adjanor</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                With a strong foundation in user experience design, Maya is
+                developing her frontend skills to bring her designs to life. She
+                has a keen eye for detail and is particularly interested in
+                accessibility and inclusive design practices. Maya is currently
+                exploring Next.js and Tailwind CSS.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
+                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="#"
+                  aria-label="Instagram profile for Maya Rodriguez"
+                >
+                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Seventh Profile - Left Aligned */}
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/janet.png"
+                alt="Janet Quaye"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Janet Quaye</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                With a strong foundation in user experience design, Maya is
+                developing her frontend skills to bring her designs to life. She
+                has a keen eye for detail and is particularly interested in
+                accessibility and inclusive design practices. Maya is currently
+                exploring Next.js and Tailwind CSS.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
+                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="#"
+                  aria-label="Instagram profile for Maya Rodriguez"
+                >
+                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Eigth Profile - Left Aligned */}
+          <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/hadijatu.png"
+                alt="Hadijatu"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Hadijatu Mohamadu</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                With a strong foundation in user experience design, Maya is
+                developing her frontend skills to bring her designs to life. She
+                has a keen eye for detail and is particularly interested in
+                accessibility and inclusive design practices. Maya is currently
+                exploring Next.js and Tailwind CSS.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
+                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="#"
+                  aria-label="Instagram profile for Maya Rodriguez"
+                >
+                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
             </div>
@@ -161,7 +351,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="text-xs text-gray-400 uppercase tracking-wider">
-            Powered by excellence
+            AmaliTech Women In Tech
           </p>
         </div>
       </footer>
