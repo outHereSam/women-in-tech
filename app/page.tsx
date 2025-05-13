@@ -1,24 +1,15 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Twitter, Linkedin, Github, Instagram } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import { Twitter, Linkedin, Github, Instagram } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <header className="container mx-auto py-8 px-4">
         <div className="flex justify-between items-center">
-          <h1 className="text-2xl font-bold tracking-wider uppercase">Mojave</h1>
-          <nav className="hidden md:flex space-x-8">
-            <Link href="#" className="text-sm text-gray-500 hover:text-black">
-              About
-            </Link>
-            <Link href="#" className="text-sm text-gray-500 hover:text-black">
-              Team
-            </Link>
-            <Link href="#" className="text-sm text-gray-500 hover:text-black">
-              Contact
-            </Link>
-          </nav>
+          <h1 className="text-2xl font-bold tracking-wider uppercase">
+            Front-End Women
+          </h1>
         </div>
       </header>
 
@@ -39,9 +30,11 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Sarah Johnson</h2>
               <p className="text-gray-500">Frontend Developer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                Sarah is a passionate frontend developer with a background in graphic design. She excels at creating
-                responsive interfaces with clean, semantic HTML and modern CSS techniques. Currently focused on
-                mastering React and TypeScript, Sarah brings a unique perspective to every project she works on.
+                Sarah is a passionate frontend developer with a background in
+                graphic design. She excels at creating responsive interfaces
+                with clean, semantic HTML and modern CSS techniques. Currently
+                focused on mastering React and TypeScript, Sarah brings a unique
+                perspective to every project she works on.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link href="#" aria-label="Twitter profile for Sarah Johnson">
@@ -72,9 +65,11 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Maya Rodriguez</h2>
               <p className="text-gray-500">UI/UX Developer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is developing her frontend skills to bring her
-                designs to life. She has a keen eye for detail and is particularly interested in accessibility and
-                inclusive design practices. Maya is currently exploring Next.js and Tailwind CSS.
+                With a strong foundation in user experience design, Maya is
+                developing her frontend skills to bring her designs to life. She
+                has a keen eye for detail and is particularly interested in
+                accessibility and inclusive design practices. Maya is currently
+                exploring Next.js and Tailwind CSS.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
@@ -83,7 +78,10 @@ export default function Home() {
                 <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
-                <Link href="#" aria-label="Instagram profile for Maya Rodriguez">
+                <Link
+                  href="#"
+                  aria-label="Instagram profile for Maya Rodriguez"
+                >
                   <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
@@ -105,9 +103,11 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Aisha Patel</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                Aisha transitioned from backend development to focus on frontend technologies. Her analytical approach
-                and problem-solving skills make her exceptional at debugging and optimizing performance. She's
-                passionate about state management and building scalable component systems.
+                Aisha transitioned from backend development to focus on frontend
+                technologies. Her analytical approach and problem-solving skills
+                make her exceptional at debugging and optimizing performance.
+                She's passionate about state management and building scalable
+                component systems.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link href="#" aria-label="Twitter profile for Aisha Patel">
@@ -160,9 +160,11 @@ export default function Home() {
               </svg>
             </Link>
           </div>
-          <p className="text-xs text-gray-400 uppercase tracking-wider">Powered by excellence</p>
+          <p className="text-xs text-gray-400 uppercase tracking-wider">
+            Powered by excellence
+          </p>
         </div>
       </footer>
     </div>
-  )
+  );
 }
