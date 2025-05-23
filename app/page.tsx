@@ -37,14 +37,19 @@ export default function Home() {
                 perspective to every project she works on.
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Sarah Johnson">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Sarah Johnson">
-                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="GitHub profile for Sarah Johnson">
+                <Link
+                  href=""
+                  target="_blank"
+                  aria-label="GitHub profile for Mildred Mwinkom Naab"
+                >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href=""
+                  target="_blank"
+                  aria-label="LinkedIn profile for Mildred Mwinkom Naab"
+                >
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
             </div>
@@ -72,17 +77,17 @@ export default function Home() {
                 exploring Next.js and Tailwind CSS.
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                <Link
+                  href="https://www.linkedin.com/in/mabel-hackman"
+                  aria-label="LinkedIn profile for Mabel Hackman"
+                >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
-                  href="#"
-                  aria-label="Instagram profile for Maya Rodriguez"
+                  href="https://github.com/Esihackman"
+                  aria-label="Github profile for Mabel Hackman"
                 >
-                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
             </div>
@@ -123,13 +128,18 @@ export default function Home() {
                 opportunity to learn from you.
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Aisha Patel">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="GitHub profile for Aisha Patel">
+                <Link
+                  href="https://github.com/ceedevgirl"
+                  target="_blank"
+                  aria-label="GitHub profile for Cecilia Arthur"
+                >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
-                <Link href="#" aria-label="LinkedIn profile for Aisha Patel">
+                <Link
+                  href="http://linkedin.com/in/ceciliaarthur347"
+                  target="_blank"
+                  aria-label="LinkedIn profile for Cecilia Arthur"
+                >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
@@ -158,17 +168,19 @@ export default function Home() {
                 exploring Next.js and Tailwind CSS.
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                <Link
+                  href="http://www.linkedin.com/in/fatima-alhassan"
+                  target="_blank"
+                  aria-label="LinkedIn profile for Fatima Alhassan"
+                >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
-                  href="#"
-                  aria-label="Instagram profile for Maya Rodriguez"
+                  href="https://github.com/Avatar-J"
+                  target="_blank"
+                  aria-label="Github profile for Fatima Alhassan"
                 >
-                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
             </div>
@@ -199,17 +211,19 @@ export default function Home() {
                 of myself
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
+                <Link
+                  href="https://www.linkedin.com/feed/"
+                  target="_blank"
+                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
-                  href="#"
-                  aria-label="Instagram profile for Maya Rodriguez"
+                  href="https://github.com/ewurasi-nyarkoa"
+                  target="_blank"
+                  aria-label="Github profile for Ewurasi Ayanful"
                 >
-                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
             </div>
@@ -237,17 +251,19 @@ export default function Home() {
                 exploring Next.js and Tailwind CSS.
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
-                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                <Link
+                  href=""
+                  target="_blank"
+                  aria-label="GitHub profile for Hadijatu Mohamadu"
+                >
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
-                  href="#"
-                  aria-label="Instagram profile for Maya Rodriguez"
+                  href=""
+                  target="_blank"
+                  aria-label="LinkedIn profile for Hadijatu Mohamadu"
                 >
-                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
               </div>
             </div>
