@@ -103,11 +103,24 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Cecilia Arthur</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                Aisha transitioned from backend development to focus on frontend
-                technologies. Her analytical approach and problem-solving skills
-                make her exceptional at debugging and optimizing performance.
-                She's passionate about state management and building scalable
-                component systems.
+                I’m Cecilia Arthur, a front-end trainee at the Kumasi branch of
+                AmaliTech, and currently the only lady in the training group
+                here. So far, I’ve worked on several projects that have
+                strengthened my foundation in HTML, CSS, JavaScript, Git, and
+                testing with Jest. These include a Character Counter, Conference
+                Ticket Generator, Smart Thermostat Debugging App, and a Habit
+                Tracker App. Each one has helped me improve my coding skills,
+                problem-solving, and collaboration. Being the only lady in
+                Kumasi has been both challenging and motivating. It’s helped me
+                build confidence and stay focused. Having a mentor who
+                understands the value of diversity and growth would mean a lot
+                to me. I’m currently working on improving my CSS layout,
+                responsiveness, and I’m excited to learn TypeScript and Angular.
+                Outside coding, I love cooking and co-create content with my
+                teammates under the name “CodeChale” to share our learning
+                journey. I’m committed, curious, and ready to grow. Thank you
+                for considering me as a mentee, I would truly appreciate the
+                opportunity to learn from you.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link href="#" aria-label="Twitter profile for Aisha Patel">
@@ -176,87 +189,14 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Ewurasi Ayanful</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is
-                developing her frontend skills to bring her designs to life. She
-                has a keen eye for detail and is particularly interested in
-                accessibility and inclusive design practices. Maya is currently
-                exploring Next.js and Tailwind CSS.
-              </p>
-              <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
-                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link
-                  href="#"
-                  aria-label="Instagram profile for Maya Rodriguez"
-                >
-                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Sixth Profile - Right Aligned */}
-          <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
-            <div className="w-full md:w-1/2">
-              <Image
-                src="/jemima.webp"
-                alt="Jemima"
-                width={500}
-                height={500}
-                className="w-full object-cover"
-              />
-            </div>
-            <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Jemima Adjanor</h2>
-              <p className="text-gray-500">Frontend Engineer Trainee</p>
-              <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is
-                developing her frontend skills to bring her designs to life. She
-                has a keen eye for detail and is particularly interested in
-                accessibility and inclusive design practices. Maya is currently
-                exploring Next.js and Tailwind CSS.
-              </p>
-              <div className="flex space-x-4 mt-4">
-                <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
-                  <Twitter className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link href="#" aria-label="LinkedIn profile for Maya Rodriguez">
-                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-                <Link
-                  href="#"
-                  aria-label="Instagram profile for Maya Rodriguez"
-                >
-                  <Instagram className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Seventh Profile - Left Aligned */}
-          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
-            <div className="w-full md:w-1/2">
-              <Image
-                src="/janet.webp"
-                alt="Janet Quaye"
-                width={500}
-                height={500}
-                className="w-full object-cover"
-              />
-            </div>
-            <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Janet Quaye</h2>
-              <p className="text-gray-500">Frontend Engineer Trainee</p>
-              <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is
-                developing her frontend skills to bring her designs to life. She
-                has a keen eye for detail and is particularly interested in
-                accessibility and inclusive design practices. Maya is currently
-                exploring Next.js and Tailwind CSS.
+                My name is Ewurasi Nyarkoa Ayanful, my specialization is
+                frontend. I'm a recent graduate in Information Studies with a
+                strong passion for software development, particularly in
+                building front-end applications. I have a resilient mindset and
+                don't give up easily when faced with challenges. I'm eager to
+                grow as a front-end developer and contribute to meaningful,
+                user-focused projects that create real impact. Below is an image
+                of myself
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link href="#" aria-label="Twitter profile for Maya Rodriguez">
