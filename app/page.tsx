@@ -8,7 +8,7 @@ export default function Home() {
       <header className="container mx-auto py-8 px-4">
         <div className="flex justify-between items-center">
           <h1 className="text-2xl font-bold tracking-wider uppercase">
-            Front-End Women
+            Women In Tech
           </h1>
         </div>
       </header>
