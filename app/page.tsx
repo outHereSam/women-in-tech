@@ -268,6 +268,48 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/ewurasi.webp"
+                alt="Ewurasi Ayanful"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Ewurasi Ayanful</h2>
+              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                My name is Ewurasi Nyarkoa Ayanful, my specialization is
+                frontend. I'm a recent graduate in Information Studies with a
+                strong passion for software development, particularly in
+                building front-end applications. I have a resilient mindset and
+                don't give up easily when faced with challenges. I'm eager to
+                grow as a front-end developer and contribute to meaningful,
+                user-focused projects that create real impact. Below is an image
+                of myself
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link
+                  href="https://www.linkedin.com/feed/"
+                  target="_blank"
+                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                >
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="https://github.com/ewurasi-nyarkoa"
+                  target="_blank"
+                  aria-label="Github profile for Ewurasi Ayanful"
+                >
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
 
