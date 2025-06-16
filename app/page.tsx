@@ -41,14 +41,14 @@ export default function Home() {
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
-                  href=""
+                  href="https://github.com/Mwinkom"
                   target="_blank"
                   aria-label="GitHub profile for Mildred Mwinkom Naab"
                 >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
-                  href=""
+                  href="https://www.linkedin.com/in/mildred-naab-69a803188/"
                   target="_blank"
                   aria-label="LinkedIn profile for Mildred Mwinkom Naab"
                 >
@@ -79,13 +79,15 @@ export default function Home() {
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
-                  href="https://www.linkedin.com/in/mabel-hackman"
+                  href="https://www.linkedin.com/in/mabel-hackman-779359328?"
+                  target="_blank"
                   aria-label="LinkedIn profile for Mabel Hackman"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
                   href="https://github.com/Esihackman"
+                  target="_blank"
                   aria-label="Github profile for Mabel Hackman"
                 >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
@@ -252,7 +254,7 @@ export default function Home() {
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
-                  href=""
+                  href="https://github.com/hadijah10"
                   target="_blank"
                   aria-label="GitHub profile for Hadijatu Mohamadu"
                 >
@@ -293,15 +295,15 @@ export default function Home() {
                 creative projects. 
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link
-                  href="https://www.linkedin.com/feed/"
+                {/* <Link
+                  href=""
                   target="_blank"
                   aria-label="LinkedIn profile for Ewurasi Ayanful"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
+                </Link> */}
                 <Link
-                  href="https://github.com/ewurasi-nyarkoa"
+                  href=""
                   target="_blank"
                   aria-label="Github profile for Ewurasi Ayanful"
                 >
@@ -345,15 +347,15 @@ export default function Home() {
                 Thank you for considering my profile and who can support my journey.
               </p>
               <div className="flex space-x-4 mt-4">
-                <Link
-                  href="https://www.linkedin.com/feed/"
+                {/* <Link
+                  href=""
                   target="_blank"
                   aria-label="LinkedIn profile for Ewurasi Ayanful"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link>
+                </Link> */}
                 <Link
-                  href="https://github.com/ewurasi-nyarkoa"
+                  href=""
                   target="_blank"
                   aria-label="Github profile for Ewurasi Ayanful"
                 >
