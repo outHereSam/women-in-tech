@@ -269,7 +269,7 @@ export default function Home() {
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
                 <Link
-                  href=""
+                  href="https://www.linkedin.com/in/hadijatum1?"
                   target="_blank"
                   aria-label="LinkedIn profile for Hadijatu Mohamadu"
                 >
@@ -375,6 +375,54 @@ export default function Home() {
                   href=""
                   target="_blank"
                   aria-label="Github profile for Ayidah Babewe Rosemary"
+                >
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Evelenth Profile - Left Aligned */}
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/advida.png"
+                alt="Gbolo Advida Rashidatu"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Gbolo Advida Rashidatu</h2>
+              <p className="text-gray-500">UI/UX Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                I'm Davida Rashidatu Gbolo, a recent Marketing graduate from the University of Ghana and 
+                a current UX Design trainee at Amalitech. My journey into UX began with a 6-month professional 
+                certificate on Coursera, which laid the foundation for my transition into design. 
+                Since joining Amalitech, I’ve been gaining practical experience through internal 
+                training and hands-on projects. With a background in project management and digital marketing, 
+                I approach design strategically—focusing on user-centered, accessible, and functional digital solutions.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                To further enhance my capabilities, I’ve begun learning basic programming to improve communication with 
+                developers and bridge the gap between design and development. As I continue to grow, I believe mentorship 
+                will be essential in helping me navigate real-world design challenges, receive constructive feedback, 
+                and build a clear path toward becoming a well-rounded UX professional. I am therefore seeking a mentor 
+                within the company to support my development in this field.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                {/* <Link
+                  href=""
+                  target="_blank"
+                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                >
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link> */}
+                <Link
+                  href=""
+                  target="_blank"
+                  aria-label="Github profile for Gbolo Advida Rashidatu"
                 >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
