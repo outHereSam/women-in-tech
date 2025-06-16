@@ -253,11 +253,12 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Hadijatu Mohamadu</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is
-                developing her frontend skills to bring her designs to life. She
-                has a keen eye for detail and is particularly interested in
-                accessibility and inclusive design practices. Maya is currently
-                exploring Next.js and Tailwind CSS.
+                My name is Hadijatu Mohamadu, a graduate trainee for the frontend specialization at Amalitech. 
+                I have some experience in computer networking but I am more drawn to visuals hence the reason 
+                for the switch into frontend. I feel like I have a lot to learn and would like to work on developing 
+                my skills and confidence both professionally and in frontend development. I enjoy building web 
+                pages and understanding how things work. During my free time, I immerse myself in art and craft 
+                which helps me discover hidden thought paths.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
@@ -314,7 +315,7 @@ export default function Home() {
                 <Link
                   href=""
                   target="_blank"
-                  aria-label="Github profile for Ewurasi Ayanful"
+                  aria-label="Github profile for Eugenia Dede Teye"
                 >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
@@ -373,7 +374,7 @@ export default function Home() {
                 <Link
                   href=""
                   target="_blank"
-                  aria-label="Github profile for Ewurasi Ayanful"
+                  aria-label="Github profile for Ayidah Babewe Rosemary"
                 >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
