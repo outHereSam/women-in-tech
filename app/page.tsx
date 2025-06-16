@@ -221,7 +221,7 @@ export default function Home() {
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
-                  href="https://www.linkedin.com/feed/"
+                  href="https://www.linkedin.com/in/ewurasi-nyarkoa-ayanful-171179335/"
                   target="_blank"
                   aria-label="LinkedIn profile for Ewurasi Ayanful"
                 >
