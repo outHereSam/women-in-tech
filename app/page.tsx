@@ -30,11 +30,14 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Mildred Mwinkom Naab</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                Sarah is a passionate frontend developer with a background in
-                graphic design. She excels at creating responsive interfaces
-                with clean, semantic HTML and modern CSS techniques. Currently
-                focused on mastering React and TypeScript, Sarah brings a unique
-                perspective to every project she works on.
+                I’m a frontend development trainee with a strong interest in building user-friendly and 
+                accessible web applications. While I’m still early in my journey as a front-end developer, 
+                I bring a creative background as a past digital artist and designer. 
+                My passion for front-end development stems from a desire to bring ideas to life and create impactful solutions. 
+                I’m committed to continuous learning and growth, and I thrive in collaborative environments. 
+                I’m always eager to take on new challenges that push me out of my comfort zone. 
+                I’m looking forward to being mentored by someone in the industry who can guide my growth, 
+                inspire me, and share valuable real-world insights.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
@@ -70,11 +73,9 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Mabel Hackman</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is
-                developing her frontend skills to bring her designs to life. She
-                has a keen eye for detail and is particularly interested in
-                accessibility and inclusive design practices. Maya is currently
-                exploring Next.js and Tailwind CSS.
+                Mabel Hackman is a passionate frontend developer specializing in crafting responsive and intuitive user interfaces. 
+                Skills: HTML, CSS, JavaScript, TypeScript, React, Angular. <br />
+                Fun Fact: When i am not coding, you can find me singing or dancing to my favourite tunes to release stress.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
@@ -161,11 +162,11 @@ export default function Home() {
               <h2 className="text-2xl font-medium">Fatima Alhassan</h2>
               <p className="text-gray-500">Frontend Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                With a strong foundation in user experience design, Maya is
-                developing her frontend skills to bring her designs to life. She
-                has a keen eye for detail and is particularly interested in
-                accessibility and inclusive design practices. Maya is currently
-                exploring Next.js and Tailwind CSS.
+                Hi, my name is Fatima Jummai Alhassan, and I’m part of the Frontend GTP track. 
+                My ultimate goal is to become one of the top software developers in Ghana. 
+                I’m aiming to be the Margaret Hamilton of Ghana😊 <br />
+                Fun fact: I love singing, watching anime (always open to recommendations), and eating kebab. 
+                I also enjoy chilling at the beach and vibing to good music with a kebab in hand.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
@@ -207,8 +208,7 @@ export default function Home() {
                 building front-end applications. I have a resilient mindset and
                 don't give up easily when faced with challenges. I'm eager to
                 grow as a front-end developer and contribute to meaningful,
-                user-focused projects that create real impact. Below is an image
-                of myself
+                user-focused projects that create real impact. 
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
@@ -269,28 +269,80 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Nineth Profile - Left Aligned */}
           <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
             <div className="w-full md:w-1/2">
               <Image
-                src="/ewurasi.webp"
-                alt="Ewurasi Ayanful"
+                src="/Eugenia.png"
+                alt="Eugenia Dede Teye"
                 width={500}
                 height={500}
                 className="w-full object-cover"
               />
             </div>
             <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Ewurasi Ayanful</h2>
-              <p className="text-gray-500">Frontend Engineer Trainee</p>
+              <h2 className="text-2xl font-medium">Eugenia Dede Teye</h2>
+              <p className="text-gray-500">Data Engineer Trainee</p>
               <p className="text-gray-600 leading-relaxed">
-                My name is Ewurasi Nyarkoa Ayanful, my specialization is
-                frontend. I'm a recent graduate in Information Studies with a
-                strong passion for software development, particularly in
-                building front-end applications. I have a resilient mindset and
-                don't give up easily when faced with challenges. I'm eager to
-                grow as a front-end developer and contribute to meaningful,
-                user-focused projects that create real impact. Below is an image
-                of myself
+                Eugenia Dede Teye is a Data Engineering graduate trainee at AmaliTech Ghana. 
+                With a background in health, she recently transitioned into the data space, 
+                driven by a growing interest in data pipeline development, analytics engineering, 
+                and turning complex data into meaningful insights. Eugenia enjoys working to organize, 
+                manage, and make sense of data in ways that support bigger outcomes. In her quiet moments, 
+                she spends time journaling, learning new tools, and developing planner ideas for her small 
+                creative projects. 
+              </p>
+              <div className="flex space-x-4 mt-4">
+                <Link
+                  href="https://www.linkedin.com/feed/"
+                  target="_blank"
+                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                >
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+                <Link
+                  href="https://github.com/ewurasi-nyarkoa"
+                  target="_blank"
+                  aria-label="Github profile for Ewurasi Ayanful"
+                >
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Tenth Profile - Left Aligned */}
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/Ayidah.png"
+                alt="Ayidah Babewe Rosemary"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Ayidah Babewe Rosemary</h2>
+              <p className="text-gray-500">UI/UX Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                I am Ayidah Babewe Rosemary, a passionate and self-driven aspiring UX/UX designer 
+                currently undergoing formal training in the GTP program. For the past two years, 
+                I have been learning and practicing UI/UX design independently, driven by curiosity, 
+                creativity, and a strong desire to create meaningful digital experiences. 
+                This journey has helped me build a foundational understanding of user-centered design, 
+                visual design principles, wireframing, and prototyping tools such as Figma and Adobe XD.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Through this structured training, I am sharpening my skills with professional 
+                guidance, gaining deeper knowledge of design systems, and completing practical project work. 
+                I am at a stage where mentorship would be invaluable, not just to refine my technical abilities, 
+                but to gain real-world insights, professional feedback, and a clearer understanding of how to 
+                grow within this industry. I am actively seeking a mentor who is already established in the UI/UX field, 
+                someone who can offer guidance, share experiences, and support my development as I take this next step 
+                in my design career. I am eager to learn, open to feedback, and fully committed to becoming a thoughtful 
+                and skilled designer who creates impactful user experiences. 
+                Thank you for considering my profile and who can support my journey.
               </p>
               <div className="flex space-x-4 mt-4">
                 <Link
