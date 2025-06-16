@@ -308,7 +308,7 @@ export default function Home() {
                 {/* <Link
                   href=""
                   target="_blank"
-                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                  aria-label="LinkedIn profile for Eugenia Dede Teye"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link> */}
@@ -367,7 +367,7 @@ export default function Home() {
                 {/* <Link
                   href=""
                   target="_blank"
-                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                  aria-label="LinkedIn profile for Ayidah Babewe Rosemary"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link> */}
@@ -415,7 +415,7 @@ export default function Home() {
                 {/* <Link
                   href=""
                   target="_blank"
-                  aria-label="LinkedIn profile for Ewurasi Ayanful"
+                  aria-label="LinkedIn profile for Advida Rashidatu"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link> */}
@@ -423,6 +423,52 @@ export default function Home() {
                   href=""
                   target="_blank"
                   aria-label="Github profile for Gbolo Advida Rashidatu"
+                >
+                  <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Twelfth Profile - Left Aligned */}
+          <div className="flex flex-col md:flex-row-reverse md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-1/2">
+              <Image
+                src="/catherine.png"
+                alt="Catherine Gyamfi"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-2xl font-medium">Catherine Gyamfi</h2>
+              <p className="text-gray-500">DevOps Trainee</p>
+              <p className="text-gray-600 leading-relaxed">
+                Hi, I’m Catherine Gyamfi. I studied Economics and Geography at the 
+                University of Ghana and started my career as an Accounts Executive at 
+                the Indian High Commission. My passion for technology led me to pursue 
+                software development at CodeTrain Africa, focusing on Node.js, React, and MongoDB.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                I later transitioned to TDX Limited as a Frontend Engineer and Project Manager, 
+                and then to Amalitech’s Restart Program, where I fell in love with Cloud technologies. 
+                Now, I’m excited to be on Amalitech’s GTP DevOps track, growing my skills with tools like 
+                React, CloudFormation, EC2, S3, Grafana, and CI/CD practices. I’m passionate about delivering efficient, 
+                sustainable solutions and making a meaningful contribution wherever I go.
+              </p>
+              <div className="flex space-x-4 mt-4">
+                {/* <Link
+                  href=""
+                  target="_blank"
+                  aria-label="LinkedIn profile for Catherine Gyamfi"
+                >
+                  <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
+                </Link> */}
+                <Link
+                  href=""
+                  target="_blank"
+                  aria-label="Github profile for Catherine Gyamfi"
                 >
                   <Github className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
                 </Link>
