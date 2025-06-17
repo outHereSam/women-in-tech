@@ -394,7 +394,7 @@ export default function Home() {
               />
             </div>
             <div className="w-full md:w-1/2 space-y-4">
-              <h2 className="text-2xl font-medium">Gbolo Advida Rashidatu</h2>
+              <h2 className="text-2xl font-medium">Gbolo Davida Rashidatu</h2>
               <p className="text-gray-500">UI/UX Trainee</p>
               <p className="text-gray-600 leading-relaxed">
                 I'm Davida Rashidatu Gbolo, a recent Marketing graduate from the University of Ghana and 
