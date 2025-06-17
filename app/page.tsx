@@ -305,15 +305,15 @@ export default function Home() {
                 her small creative projects.
               </p>
               <div className="flex space-x-4 mt-4">
-                {/* <Link
-                  href=""
+                <Link
+                  href="http://linkedin.com/in/eugenia-dede-teye"
                   target="_blank"
                   aria-label="LinkedIn profile for Eugenia Dede Teye"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link> */}
+                </Link>
                 <Link
-                  href=""
+                  href="https://github.com/Eugenia-DE"
                   target="_blank"
                   aria-label="Github profile for Eugenia Dede Teye"
                 >
@@ -364,15 +364,15 @@ export default function Home() {
                 journey.
               </p>
               <div className="flex space-x-4 mt-4">
-                {/* <Link
-                  href=""
+                <Link
+                  href="https://www.linkedin.com/in/ayidah-rosemary-975138296"
                   target="_blank"
                   aria-label="LinkedIn profile for Ayidah Babewe Rosemary"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link> */}
+                </Link>
                 <Link
-                  href=""
+                  href="https://github.com/ayidahrosemary123"
                   target="_blank"
                   aria-label="Github profile for Ayidah Babewe Rosemary"
                 >
@@ -412,15 +412,15 @@ export default function Home() {
                 within the company to support my development in this field.
               </p>
               <div className="flex space-x-4 mt-4">
-                {/* <Link
-                  href=""
+                <Link
+                  href="https://www.linkedin.com/in/davida-rashidatu-gbolo-here/"
                   target="_blank"
                   aria-label="LinkedIn profile for Advida Rashidatu"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link> */}
+                </Link>
                 <Link
-                  href=""
+                  href="https://github.com/Rashidatu-davida"
                   target="_blank"
                   aria-label="Github profile for Gbolo Advida Rashidatu"
                 >
@@ -458,13 +458,13 @@ export default function Home() {
                 sustainable solutions and making a meaningful contribution wherever I go.
               </p>
               <div className="flex space-x-4 mt-4">
-                {/* <Link
-                  href=""
+                <Link
+                  href="https://www.linkedin.com/in/catherine-gyamfi-a289b464"
                   target="_blank"
                   aria-label="LinkedIn profile for Catherine Gyamfi"
                 >
                   <Linkedin className="w-5 h-5 text-gray-500 hover:text-black transition-colors" />
-                </Link> */}
+                </Link>
                 <Link
                   href=""
                   target="_blank"
